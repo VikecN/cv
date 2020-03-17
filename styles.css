@@ -8,42 +8,65 @@ body {
 
 h1{
   padding: 0;
-  margin: 0;
   font-family: 'Sacramento', cursive;
-  font-size: 60px;
+  color: #66BFBF;
 }
 
-h2, h3 {
+h2 {
   font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
 }
 
 p {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
-  margin: 0;
+  color: #40514E;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted;
+  border-color: #cccccc;
+  width: 4%;
+  border-width: 15px;
+  margin: 0 auto 0 auto;
 }
 
 /**********************ClASSES ELEMENTS************************/
 /****************Top Container Start******************/
 .top-container {
-  padding-top: 200px;
+  padding-top: 240px;
   width: 100%;
-  height: 740px;
-  background-color: #79bac1;
+  height: 700px;
+  background-color: #94D6E0;
   position: relative;
 }
 
+.header-name{
+  padding: 0;
+  margin: 0;
+  font-size: 90px;
+}
+.header-paragraph{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  margin: 0;
+}
 .top-cloud {
   position: absolute;
-  top: 18%;
+  top: 15%;
   right: 20%;
 
-}
-
-.name {
-  padding-top: 50px;
-  text-align: center;
-  margin: 0;
 }
 
 .bottom-cloud {
@@ -53,15 +76,84 @@ p {
 }
 
 .mountain {
-position: inherit;
-width: 960px;
-height: 550px;
-margin-top: 25px;
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+  width: 960px;
+  height: 550px;
 }
 /****************Top Container End******************/
 /****************Middle Container Start******************/
+.middle-container{
+  padding: 100px 0;
+  background-color: #f5f5f5;
+}
 
-.hobbi-imgs{
-  width: 300px;
-  height: 300px;
+.profile{
+  margin: 0 auto 100px auto;
+  width: 35%;
+  line-height: 2;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.programer-img {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+}
+
+.photographer-img {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 0 auto 100px auto;
+  width: 35%;
+  line-height: 2;
+}
+
+.btn {
+  position: relative;
+  top: 40px;
+  border-radius: 20px;
+  background: #2dc3bc;
+  color: #EAF6F6;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #66BFBF;
+}
+
+
+/****************Middle Container End******************/
+/****************Bottom Container Start******************/
+
+.bottom-container{
+  background-color: #2dc3bc;
+  padding: 100px;
+}
+
+.bottom-container a{
+  font-size: 30px;
+  font-weight: normal;
+  text-decoration: none;
+  font-family: 'Lilita One', cursive;
+  margin: 0 15px;
+  line-height: 3;
+}
+
+.author {
+    margin: 10px 0;
+    color: #EAF6F6;
+    font-weight: bold;
 }
